@@ -1,0 +1,12 @@
+python ratio_generation.py \
+--ratio_path ratio_conv/ \
+--EZCrop 1 \
+--alpha 0.25 \
+--conv_fm 1 \
+--data_dir [Your path to the dataset] \
+--dataset cifar10 \
+--arch [Choose the model architecture] \
+--pretrain_dir [Your path to Pretrained model] \
+--limit 5 \
+--batch_size 128 \
+--gpu 0,1 
